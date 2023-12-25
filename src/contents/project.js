@@ -4,7 +4,7 @@ export const data = [
     {
         date: 'December - 2023',
         title: 'Portfolio Website',
-        link: 'https://github.com/Sitouthay98',
+        link: 'https://sitouthay98.netlify.app/',
         description: [
             'Build a simple portfolio website with React.js and TailwindCSS',
         ],
