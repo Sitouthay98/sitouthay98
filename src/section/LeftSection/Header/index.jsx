@@ -1,4 +1,4 @@
-import { faArrowDown} from '@fortawesome/free-solid-svg-icons'
+import {faFaceSmileWink} from '@fortawesome/free-solid-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import avatar from '../../../assets/avatar.png'
 import {data} from '../../../contents/header'
@@ -12,7 +12,8 @@ const Header = () => {
             <div className='flex flex-col gap-2'>
                 <div className='text-3xl text-primaryTitle font-bold dark:text-darkTitle'>{data.name}</div>
                 <div className='text-xl font-semibold'>{data.position}</div>
-                <div className='text-sm w-5/6'>{data.caption}</div>
+                <div className='text-justify text-sm w-5/6'>{data.caption} <FontAwesomeIcon className='ml-1' icon={faFaceSmileWink} /></div>
+                
                 <div className='mt-2'>
                 </div>
             </div>
