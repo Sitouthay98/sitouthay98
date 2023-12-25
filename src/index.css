@@ -5,6 +5,7 @@
 @layer base{
     body {
         margin: 0;
+        width: 100%;
         @apply bg-primaryBg;
         @apply text-primaryText;
     }
