@@ -20,7 +20,7 @@ function App() {
         <FontAwesomeIcon className='m-3 text-2xl hover:scale-150 hover:text-primaryBtn transition-all cursor-pointer ' onClick={toggleTheme} icon={faLightbulb}/>
       </div>
 
-      <div className='mx-auto max-w-7xl grid gap-y-5 md:grid-cols-[30%_70%]'>
+      <div className='mx-auto max-w-4xl grid gap-y-5 sm:grid-cols-[30%_70%]'>
         <LeftSection/>
         <RightSection/>
       </div>

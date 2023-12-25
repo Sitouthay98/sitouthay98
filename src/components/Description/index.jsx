@@ -5,8 +5,8 @@ const Description = ({desc}) =>{
     return (
         <div className="flex">
             <div className='flex pt-2 text-sm'>
-                <div><FontAwesomeIcon className="mr-2 text-xs" icon={faMinus} /></div>
-                <div>{desc}</div>
+                <div><FontAwesomeIcon className="mr-2 text-xs " icon={faMinus} /></div>
+                <div className="text-justify">{desc}</div>
             </div>
         </div>
     )
